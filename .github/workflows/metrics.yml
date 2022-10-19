@@ -54,7 +54,7 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: >-
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
-            gnuplot, roff
+            gnuplot, roff, p
           # plugin_languages_skipped: my-test-repo                       # List of repositories to skip
           # plugin_languages_colors: "0:orange, javascript:#ff0000, ..." # Make most used languages orange and JavaScript red
           #plugin_languages_details: bytes-size, percentage               # Additionally display total bytes size and percentage
@@ -95,7 +95,7 @@ jobs:
           plugin_notable_filter: stars:>50 # Only display repositories with 50 stars or more (syntax based on GitHub search query)
           plugin_notable_repositories: yes     # Display repositories name instead of only organization name
 
-          plugin_stackoverflow: yes
+          plugin_stackoverflow: no
           plugin_stackoverflow_user: 297526                           # Stackoverflow user id (required)
           plugin_stackoverflow_sections: answers-top, questions-recent # Display top answers and recent questions
           plugin_stackoverflow_limit: 0                                # Display 2 entries per section

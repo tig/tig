@@ -62,7 +62,7 @@ jobs:
           plugin_languages_sections: most-used, recently-used
 
           # The coding habits plugin display metrics based on your recent activity, such as active hours or languages recently used.
-          plugin_habits: yes
+          plugin_habits: no
           plugin_habits_from: 200       # Use 200 events to compute habits
           plugin_habits_days: 90        # Keep only events from last 14 days
           plugin_habits_facts: yes      # Display facts section
@@ -79,11 +79,11 @@ jobs:
           plugin_reactions_details: count # Display reactions count but not percentage
 
           # The followup plugin displays the ratio of open/closed issues and the ratio of open/merged pull requests across all your repositories, which shows if they're well-maintained or not.
-          plugin_followup: yes
+          plugin_followup: no
           plugin_followup_sections: repositories, user
 
           # The lines of code plugin displays the number of lines of code you have added and removed across all of your repositories.
-          plugin_lines: yes
+          plugin_lines: no
 
           # The repositories traffic plugin displays the number of page views across your repositories.
           #plugin_traffic: yes
@@ -97,7 +97,7 @@ jobs:
 
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 297526                           # Stackoverflow user id (required)
-          #plugin_stackoverflow_sections: answers-top, questions-recent # Display top answers and recent questions
+          plugin_stackoverflow_sections: '' #answers-top, questions-recent # Display top answers and recent questions
           plugin_stackoverflow_limit: 2                                # Display 2 entries per section
           plugin_stackoverflow_lines: 4                                # Display 4 lines per entry
           plugin_stackoverflow_lines_snippet: 2                        # Display 2 lines in embed code snippets

@@ -27,8 +27,8 @@ jobs:
           use_prebuilt_image: yes # faster execution
 
           # base
-          base: header, activity, community, repositories, metadata
-          repositories_forks: yes
+          base: header, activity, community, repositories #, metadata
+          repositories_forks: no
           repositories_affiliations: owner, collaborator
           repositories_skipped: |
             @use.patterns

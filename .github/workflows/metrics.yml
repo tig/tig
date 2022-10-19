@@ -45,6 +45,7 @@ jobs:
 
             # Include back a previously skipped repository
             +tig/Email2Calendar
+            +snowrodeo/TV_slider
 
           # The isocalendar plugin displays an isometric view of your commits calendar, along with a few additional stats like current streak and commit average per day.
           plugin_isocalendar: no

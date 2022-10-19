@@ -21,14 +21,14 @@ jobs:
           user: tig
           template: classic
           config_gemoji: yes # use additional non-unicode emoji
-          #config_timezone: America/New_York
+          config_timezone: America/Denver
           retries: 3
           retries_delay: 300
           use_prebuilt_image: yes # faster execution
 
           # base
           base: header, activity, community, repositories, metadata
-          repositories_forks: no
+          repositories_forks: yes
           repositories_affiliations: owner, collaborator
           repositories_skipped: |
             @use.patterns
